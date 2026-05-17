@@ -182,8 +182,8 @@ az role assignment create \
     
     ```bash
     # 1. 실제 인프라 환경 변수 정의
-    PROJECT_NAME="ai-project-annajeong"
-    SEARCH_SERVICE_NAME="finassist-search-annajeong"
+    PROJECT_NAME="project-name"
+    SEARCH_SERVICE_NAME="search-service-name"
     
     
     # 2. Azure AI Foundry 프로젝트의 시스템 관리 ID(Identity) Object ID 추출
