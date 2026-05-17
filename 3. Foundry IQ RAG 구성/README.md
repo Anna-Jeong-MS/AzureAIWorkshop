@@ -182,11 +182,9 @@ az role assignment create \
     
     ```bash
     # 1. 실제 인프라 환경 변수 정의
-    RESOURCE_GROUP="ai-workshop-rg"
     PROJECT_NAME="ai-project-annajeong"
-    HUB_NAME="ai-project-annajeong-resource"
     SEARCH_SERVICE_NAME="finassist-search-annajeong"
-    YOUR_EMAIL="annajeong@MngEnvMCAP815109.onmicrosoft.com"
+    
     
     # 2. Azure AI Foundry 프로젝트의 시스템 관리 ID(Identity) Object ID 추출
     PROJECT_MI_OBJECT_ID=$(az resource show \
