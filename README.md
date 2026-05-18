@@ -37,6 +37,8 @@ Microsoft Foundry에서 구성한 `FinAssistAI` 에이전트와 Foundry IQ 기�
 - Foundry 프로젝트 접근을 위한 `Cognitive Services 사용자` 권한 부여
 - 배포된 챗봇 UI에서 금융 상담 RAG 시나리오 테스트
 
+---
+
 ### 5. Long-term Memory 구성
 
 Long-term Memory(LTM) 기반 사용자 메모리 저장 및 개인화 챗봇 구성
