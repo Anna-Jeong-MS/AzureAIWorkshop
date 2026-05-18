@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "C001",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0001",
+    "name": "이준호",
+    "riskProfile": "안정형",
+    "interests": [
+      "해외주식형 펀드",
+      "연금저축"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "단기 유동성을 중요하게 생각함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "이준호 고객은 안정형 성향이며 해외주식형 펀드, 연금저축에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 단기 유동성을 중요하게 생각함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "해외주식형 펀드",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C002",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0002",
+    "name": "김지훈",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "채권형 펀드",
+      "주택담보대출"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "세액공제 혜택에 관심이 높음",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "김지훈 고객은 안정추구형 성향이며 채권형 펀드, 주택담보대출에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 세액공제 혜택에 관심이 높음, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "채권형 펀드",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C003",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0003",
+    "name": "신도윤",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "암보험",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "신도윤 고객은 위험중립형 성향이며 암보험, 채권형 펀드에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 보험 보장 범위와 면책기간을 자주 질문함, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "암보험",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C004",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0004",
+    "name": "임서연",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "주택담보대출",
+      "정기예금"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "과거 중도해지 경험이 있음",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "임서연 고객은 적극투자형 성향이며 주택담보대출, 정기예금에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 과거 중도해지 경험이 있음, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "주택담보대출",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C005",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0005",
+    "name": "김서연",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "해외주식형 펀드",
+      "정기예금"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "원금 손실 가능성에 민감함",
+      "단기 유동성을 중요하게 생각함"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "김서연 고객은 공격투자형 성향이며 해외주식형 펀드, 정기예금에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 원금 손실 가능성에 민감함, 단기 유동성을 중요하게 생각함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "해외주식형 펀드",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C006",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0006",
+    "name": "임준호",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "청년적금",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "임준호 고객은 은퇴준비형 성향이며 청년적금, 채권형 펀드에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 은퇴 준비 목적의 장기 상품에 관심 있음, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "청년적금",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C007",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0007",
+    "name": "이예진",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "전세대출",
+      "암보험"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "이예진 고객은 청년자산형 성향이며 전세대출, 암보험에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 보험 보장 범위와 면책기간을 자주 질문함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "청년자산형",
+      "전세대출",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C008",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0008",
+    "name": "박수아",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "암보험",
+      "청년적금"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "박수아 고객은 대출상담형 성향이며 암보험, 청년적금에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 은퇴 준비 목적의 장기 상품에 관심 있음, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "암보험",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C009",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0009",
+    "name": "임서연",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "전세대출",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "세액공제 혜택에 관심이 높음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-10",
+    "conversationSummary": "임서연 고객은 보험상담형 성향이며 전세대출, 채권형 펀드에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 세액공제 혜택에 관심이 높음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "전세대출",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C010",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0010",
+    "name": "한민수",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "외화예금",
+      "청년적금"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "원금 손실 가능성에 민감함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-11",
+    "conversationSummary": "한민수 고객은 VIP고객형 성향이며 외화예금, 청년적금에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 원금 손실 가능성에 민감함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "외화예금",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C011",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0011",
+    "name": "한수아",
+    "riskProfile": "안정형",
+    "interests": [
+      "주택담보대출",
+      "청년적금"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "원금 손실 가능성에 민감함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-12",
+    "conversationSummary": "한수아 고객은 안정형 성향이며 주택담보대출, 청년적금에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 원금 손실 가능성에 민감함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "주택담보대출",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C012",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0012",
+    "name": "정준호",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "연금저축",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-13",
+    "conversationSummary": "정준호 고객은 안정추구형 성향이며 연금저축, 채권형 펀드에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 보험 보장 범위와 면책기간을 자주 질문함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "연금저축",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C013",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0013",
+    "name": "김태민",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "주택담보대출",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-14",
+    "conversationSummary": "김태민 고객은 위험중립형 성향이며 주택담보대출, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 수수료 조건을 꼼꼼히 확인함, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "주택담보대출",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C014",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0014",
+    "name": "한현우",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "IRP",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-01",
+    "conversationSummary": "한현우 고객은 적극투자형 성향이며 IRP, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 고수익 상품을 선호하지만 손실 설명이 필요함, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "적극투자형",
+      "IRP",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C015",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0015",
+    "name": "서지훈",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "청년적금",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "서지훈 고객은 공격투자형 성향이며 청년적금, 채권형 펀드에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 수수료 조건을 꼼꼼히 확인함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "청년적금",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C016",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0016",
+    "name": "임예진",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "해외주식형 펀드",
+      "청년적금"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "단기 유동성을 중요하게 생각함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "임예진 고객은 은퇴준비형 성향이며 해외주식형 펀드, 청년적금에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 단기 유동성을 중요하게 생각함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "해외주식형 펀드",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C017",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0017",
+    "name": "최나은",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "외화예금",
+      "연금저축"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "수수료 조건을 꼼꼼히 확인함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "최나은 고객은 청년자산형 성향이며 외화예금, 연금저축에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 수수료 조건을 꼼꼼히 확인함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "외화예금",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C018",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0018",
+    "name": "윤준호",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "채권형 펀드",
+      "정기예금"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "윤준호 고객은 대출상담형 성향이며 채권형 펀드, 정기예금에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 보험 보장 범위와 면책기간을 자주 질문함, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "채권형 펀드",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C019",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0019",
+    "name": "박예진",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "외화예금",
+      "청년적금"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "박예진 고객은 보험상담형 성향이며 외화예금, 청년적금에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 보험 보장 범위와 면책기간을 자주 질문함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "외화예금",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C020",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0020",
+    "name": "임수아",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "해외주식형 펀드",
+      "주택담보대출"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "임수아 고객은 VIP고객형 성향이며 해외주식형 펀드, 주택담보대출에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 은퇴 준비 목적의 장기 상품에 관심 있음, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "해외주식형 펀드",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C021",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0021",
+    "name": "장민수",
+    "riskProfile": "안정형",
+    "interests": [
+      "전세대출",
+      "청년적금"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "단기 유동성을 중요하게 생각함"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "장민수 고객은 안정형 성향이며 전세대출, 청년적금에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 보험 보장 범위와 면책기간을 자주 질문함, 단기 유동성을 중요하게 생각함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "안정형",
+      "전세대출",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C022",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0022",
+    "name": "임민수",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "연금저축",
+      "외화예금"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "과거 중도해지 경험이 있음",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "임민수 고객은 안정추구형 성향이며 연금저축, 외화예금에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 과거 중도해지 경험이 있음, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "연금저축",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C023",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0023",
+    "name": "임서연",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "외화예금",
+      "청년적금"
+    ],
+    "notes": [
+      "원금 손실 가능성에 민감함",
+      "단기 유동성을 중요하게 생각함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-10",
+    "conversationSummary": "임서연 고객은 위험중립형 성향이며 외화예금, 청년적금에 관심이 있습니다. 주요 메모는 원금 손실 가능성에 민감함, 단기 유동성을 중요하게 생각함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "외화예금",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C024",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0024",
+    "name": "서지훈",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "IRP",
+      "청년적금"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "과거 중도해지 경험이 있음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-11",
+    "conversationSummary": "서지훈 고객은 적극투자형 성향이며 IRP, 청년적금에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 과거 중도해지 경험이 있음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "IRP",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C025",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0025",
+    "name": "서서연",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "전세대출",
+      "외화예금"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "과거 중도해지 경험이 있음",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-12",
+    "conversationSummary": "서서연 고객은 공격투자형 성향이며 전세대출, 외화예금에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 과거 중도해지 경험이 있음, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "전세대출",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C026",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0026",
+    "name": "한민수",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "주택담보대출",
+      "IRP"
+    ],
+    "notes": [
+      "비대면 가입을 선호함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-13",
+    "conversationSummary": "한민수 고객은 은퇴준비형 성향이며 주택담보대출, IRP에 관심이 있습니다. 주요 메모는 비대면 가입을 선호함, 수수료 조건을 꼼꼼히 확인함, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "주택담보대출",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C027",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0027",
+    "name": "신서연",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "암보험",
+      "IRP"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "단기 유동성을 중요하게 생각함"
+    ],
+    "lastConsultDate": "2026-05-14",
+    "conversationSummary": "신서연 고객은 청년자산형 성향이며 암보험, IRP에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 고수익 상품을 선호하지만 손실 설명이 필요함, 단기 유동성을 중요하게 생각함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "암보험",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C028",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0028",
+    "name": "신도윤",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "정기예금",
+      "주택담보대출"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "원금 손실 가능성에 민감함",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-01",
+    "conversationSummary": "신도윤 고객은 대출상담형 성향이며 정기예금, 주택담보대출에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 원금 손실 가능성에 민감함, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "대출상담형",
+      "정기예금",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C029",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0029",
+    "name": "윤수아",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "암보험",
+      "연금저축"
+    ],
+    "notes": [
+      "비대면 가입을 선호함",
+      "대출 상환 부담을 우려함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "윤수아 고객은 보험상담형 성향이며 암보험, 연금저축에 관심이 있습니다. 주요 메모는 비대면 가입을 선호함, 대출 상환 부담을 우려함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "암보험",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C030",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0030",
+    "name": "오태민",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "연금저축",
+      "주택담보대출"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "세액공제 혜택에 관심이 높음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "오태민 고객은 VIP고객형 성향이며 연금저축, 주택담보대출에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 세액공제 혜택에 관심이 높음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "연금저축",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C031",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0031",
+    "name": "오태민",
+    "riskProfile": "안정형",
+    "interests": [
+      "해외주식형 펀드",
+      "청년적금"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "단기 유동성을 중요하게 생각함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "오태민 고객은 안정형 성향이며 해외주식형 펀드, 청년적금에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 단기 유동성을 중요하게 생각함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "해외주식형 펀드",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C032",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0032",
+    "name": "임태민",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "채권형 펀드",
+      "청년적금"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "원금 손실 가능성에 민감함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "임태민 고객은 안정추구형 성향이며 채권형 펀드, 청년적금에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 원금 손실 가능성에 민감함, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "채권형 펀드",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C033",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0033",
+    "name": "정태민",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "외화예금",
+      "연금저축"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "과거 중도해지 경험이 있음"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "정태민 고객은 위험중립형 성향이며 외화예금, 연금저축에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 고수익 상품을 선호하지만 손실 설명이 필요함, 과거 중도해지 경험이 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "외화예금",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C034",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0034",
+    "name": "오도윤",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "암보험",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "오도윤 고객은 적극투자형 성향이며 암보험, 채권형 펀드에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 수수료 조건을 꼼꼼히 확인함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "암보험",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C035",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0035",
+    "name": "장예진",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "IRP",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "과거 중도해지 경험이 있음",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "장예진 고객은 공격투자형 성향이며 IRP, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 과거 중도해지 경험이 있음, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "공격투자형",
+      "IRP",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C036",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0036",
+    "name": "신도윤",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "정기예금",
+      "암보험"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "원금 손실 가능성에 민감함",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "신도윤 고객은 은퇴준비형 성향이며 정기예금, 암보험에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 원금 손실 가능성에 민감함, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "정기예금",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C037",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0037",
+    "name": "오유진",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "청년적금",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "비대면 가입을 선호함",
+      "과거 중도해지 경험이 있음",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-10",
+    "conversationSummary": "오유진 고객은 청년자산형 성향이며 청년적금, 채권형 펀드에 관심이 있습니다. 주요 메모는 비대면 가입을 선호함, 과거 중도해지 경험이 있음, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "청년적금",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C038",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0038",
+    "name": "서하린",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "주택담보대출",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "세액공제 혜택에 관심이 높음",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-11",
+    "conversationSummary": "서하린 고객은 대출상담형 성향이며 주택담보대출, 채권형 펀드에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 세액공제 혜택에 관심이 높음, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "주택담보대출",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C039",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0039",
+    "name": "정예진",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "정기예금",
+      "전세대출"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "세액공제 혜택에 관심이 높음",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-12",
+    "conversationSummary": "정예진 고객은 보험상담형 성향이며 정기예금, 전세대출에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 세액공제 혜택에 관심이 높음, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "정기예금",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C040",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0040",
+    "name": "윤유진",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "암보험",
+      "연금저축"
+    ],
+    "notes": [
+      "비대면 가입을 선호함",
+      "단기 유동성을 중요하게 생각함",
+      "과거 중도해지 경험이 있음"
+    ],
+    "lastConsultDate": "2026-05-13",
+    "conversationSummary": "윤유진 고객은 VIP고객형 성향이며 암보험, 연금저축에 관심이 있습니다. 주요 메모는 비대면 가입을 선호함, 단기 유동성을 중요하게 생각함, 과거 중도해지 경험이 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "암보험",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C041",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0041",
+    "name": "한준호",
+    "riskProfile": "안정형",
+    "interests": [
+      "채권형 펀드",
+      "연금저축"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-14",
+    "conversationSummary": "한준호 고객은 안정형 성향이며 채권형 펀드, 연금저축에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 고수익 상품을 선호하지만 손실 설명이 필요함, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "채권형 펀드",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C042",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0042",
+    "name": "신수아",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "IRP",
+      "청년적금"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "단기 유동성을 중요하게 생각함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-01",
+    "conversationSummary": "신수아 고객은 안정추구형 성향이며 IRP, 청년적금에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 단기 유동성을 중요하게 생각함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "안정추구형",
+      "IRP",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C043",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0043",
+    "name": "서유진",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "암보험",
+      "외화예금"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "세액공제 혜택에 관심이 높음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "서유진 고객은 위험중립형 성향이며 암보험, 외화예금에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 세액공제 혜택에 관심이 높음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "암보험",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C044",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0044",
+    "name": "김도윤",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "외화예금",
+      "IRP"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "과거 중도해지 경험이 있음",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "김도윤 고객은 적극투자형 성향이며 외화예금, IRP에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 과거 중도해지 경험이 있음, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "외화예금",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C045",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0045",
+    "name": "오현우",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "전세대출",
+      "IRP"
+    ],
+    "notes": [
+      "비대면 가입을 선호함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "오현우 고객은 공격투자형 성향이며 전세대출, IRP에 관심이 있습니다. 주요 메모는 비대면 가입을 선호함, 고수익 상품을 선호하지만 손실 설명이 필요함, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "전세대출",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C046",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0046",
+    "name": "오준호",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "전세대출",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "오준호 고객은 은퇴준비형 성향이며 전세대출, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 고수익 상품을 선호하지만 손실 설명이 필요함, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "전세대출",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C047",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0047",
+    "name": "서현우",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "IRP",
+      "연금저축"
+    ],
+    "notes": [
+      "원금 손실 가능성에 민감함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "서현우 고객은 청년자산형 성향이며 IRP, 연금저축에 관심이 있습니다. 주요 메모는 원금 손실 가능성에 민감함, 보험 보장 범위와 면책기간을 자주 질문함, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "IRP",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C048",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0048",
+    "name": "임서연",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "IRP",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "단기 유동성을 중요하게 생각함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "임서연 고객은 대출상담형 성향이며 IRP, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 단기 유동성을 중요하게 생각함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "IRP",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C049",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0049",
+    "name": "임수아",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "외화예금",
+      "암보험"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "단기 유동성을 중요하게 생각함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "임수아 고객은 보험상담형 성향이며 외화예금, 암보험에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 단기 유동성을 중요하게 생각함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "보험상담형",
+      "외화예금",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C050",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0050",
+    "name": "서서연",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "청년적금",
+      "암보험"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "원금 손실 가능성에 민감함",
+      "과거 중도해지 경험이 있음"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "서서연 고객은 VIP고객형 성향이며 청년적금, 암보험에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 원금 손실 가능성에 민감함, 과거 중도해지 경험이 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "청년적금",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C051",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0051",
+    "name": "최예진",
+    "riskProfile": "안정형",
+    "interests": [
+      "청년적금",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "세액공제 혜택에 관심이 높음",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-10",
+    "conversationSummary": "최예진 고객은 안정형 성향이며 청년적금, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 세액공제 혜택에 관심이 높음, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "청년적금",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C052",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0052",
+    "name": "한태민",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "전세대출",
+      "정기예금"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "수수료 조건을 꼼꼼히 확인함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-11",
+    "conversationSummary": "한태민 고객은 안정추구형 성향이며 전세대출, 정기예금에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 수수료 조건을 꼼꼼히 확인함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "전세대출",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C053",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0053",
+    "name": "이예진",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "IRP",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "원금 손실 가능성에 민감함",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-12",
+    "conversationSummary": "이예진 고객은 위험중립형 성향이며 IRP, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 원금 손실 가능성에 민감함, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "IRP",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C054",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0054",
+    "name": "윤하린",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "연금저축",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "대출 상환 부담을 우려함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-13",
+    "conversationSummary": "윤하린 고객은 적극투자형 성향이며 연금저축, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 대출 상환 부담을 우려함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "연금저축",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C055",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0055",
+    "name": "오하린",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "해외주식형 펀드",
+      "전세대출"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "원금 손실 가능성에 민감함",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-14",
+    "conversationSummary": "오하린 고객은 공격투자형 성향이며 해외주식형 펀드, 전세대출에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 원금 손실 가능성에 민감함, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "해외주식형 펀드",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C056",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0056",
+    "name": "박지훈",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "외화예금",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "세액공제 혜택에 관심이 높음",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-01",
+    "conversationSummary": "박지훈 고객은 은퇴준비형 성향이며 외화예금, 채권형 펀드에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 세액공제 혜택에 관심이 높음, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "은퇴준비형",
+      "외화예금",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C057",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0057",
+    "name": "박민수",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "전세대출",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "과거 중도해지 경험이 있음",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "박민수 고객은 청년자산형 성향이며 전세대출, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 과거 중도해지 경험이 있음, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "전세대출",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C058",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0058",
+    "name": "박도윤",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "정기예금",
+      "연금저축"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "대출 상환 부담을 우려함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "박도윤 고객은 대출상담형 성향이며 정기예금, 연금저축에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 대출 상환 부담을 우려함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "정기예금",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C059",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0059",
+    "name": "신서연",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "청년적금",
+      "주택담보대출"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "대출 상환 부담을 우려함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "신서연 고객은 보험상담형 성향이며 청년적금, 주택담보대출에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 대출 상환 부담을 우려함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "청년적금",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C060",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0060",
+    "name": "임준호",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "해외주식형 펀드",
+      "정기예금"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "임준호 고객은 VIP고객형 성향이며 해외주식형 펀드, 정기예금에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 수수료 조건을 꼼꼼히 확인함, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "해외주식형 펀드",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C061",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0061",
+    "name": "서민수",
+    "riskProfile": "안정형",
+    "interests": [
+      "정기예금",
+      "청년적금"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "서민수 고객은 안정형 성향이며 정기예금, 청년적금에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 보험 보장 범위와 면책기간을 자주 질문함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "정기예금",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C062",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0062",
+    "name": "임유진",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "청년적금",
+      "IRP"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "과거 중도해지 경험이 있음",
+      "단기 유동성을 중요하게 생각함"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "임유진 고객은 안정추구형 성향이며 청년적금, IRP에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 과거 중도해지 경험이 있음, 단기 유동성을 중요하게 생각함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "청년적금",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C063",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0063",
+    "name": "이지훈",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "채권형 펀드",
+      "외화예금"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "이지훈 고객은 위험중립형 성향이며 채권형 펀드, 외화예금에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 은퇴 준비 목적의 장기 상품에 관심 있음, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "위험중립형",
+      "채권형 펀드",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C064",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0064",
+    "name": "임준호",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "주택담보대출",
+      "암보험"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "임준호 고객은 적극투자형 성향이며 주택담보대출, 암보험에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 보험 보장 범위와 면책기간을 자주 질문함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "주택담보대출",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C065",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0065",
+    "name": "장예진",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "해외주식형 펀드",
+      "암보험"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-10",
+    "conversationSummary": "장예진 고객은 공격투자형 성향이며 해외주식형 펀드, 암보험에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 고수익 상품을 선호하지만 손실 설명이 필요함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "해외주식형 펀드",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C066",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0066",
+    "name": "장유진",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "IRP",
+      "전세대출"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "과거 중도해지 경험이 있음",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-11",
+    "conversationSummary": "장유진 고객은 은퇴준비형 성향이며 IRP, 전세대출에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 과거 중도해지 경험이 있음, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "IRP",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C067",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0067",
+    "name": "윤지훈",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "청년적금",
+      "IRP"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-12",
+    "conversationSummary": "윤지훈 고객은 청년자산형 성향이며 청년적금, IRP에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 보험 보장 범위와 면책기간을 자주 질문함, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "청년적금",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C068",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0068",
+    "name": "장서연",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "전세대출",
+      "연금저축"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "원금 손실 가능성에 민감함",
+      "과거 중도해지 경험이 있음"
+    ],
+    "lastConsultDate": "2026-05-13",
+    "conversationSummary": "장서연 고객은 대출상담형 성향이며 전세대출, 연금저축에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 원금 손실 가능성에 민감함, 과거 중도해지 경험이 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "전세대출",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C069",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0069",
+    "name": "서서연",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "암보험",
+      "전세대출"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "원금 손실 가능성에 민감함",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-14",
+    "conversationSummary": "서서연 고객은 보험상담형 성향이며 암보험, 전세대출에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 원금 손실 가능성에 민감함, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "암보험",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C070",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0070",
+    "name": "오도윤",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "전세대출",
+      "IRP"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "대출 상환 부담을 우려함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-01",
+    "conversationSummary": "오도윤 고객은 VIP고객형 성향이며 전세대출, IRP에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 대출 상환 부담을 우려함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "VIP고객형",
+      "전세대출",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C071",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0071",
+    "name": "박태민",
+    "riskProfile": "안정형",
+    "interests": [
+      "청년적금",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "과거 중도해지 경험이 있음",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "박태민 고객은 안정형 성향이며 청년적금, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 과거 중도해지 경험이 있음, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "청년적금",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C072",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0072",
+    "name": "이도윤",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "주택담보대출",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "대출 상환 부담을 우려함",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "이도윤 고객은 안정추구형 성향이며 주택담보대출, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 대출 상환 부담을 우려함, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "주택담보대출",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C073",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0073",
+    "name": "오태민",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "채권형 펀드",
+      "정기예금"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "오태민 고객은 위험중립형 성향이며 채권형 펀드, 정기예금에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 수수료 조건을 꼼꼼히 확인함, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "채권형 펀드",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C074",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0074",
+    "name": "윤수아",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "정기예금",
+      "연금저축"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "윤수아 고객은 적극투자형 성향이며 정기예금, 연금저축에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 은퇴 준비 목적의 장기 상품에 관심 있음, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "정기예금",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C075",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0075",
+    "name": "박유진",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "정기예금",
+      "IRP"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "비대면 가입을 선호함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "박유진 고객은 공격투자형 성향이며 정기예금, IRP에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 비대면 가입을 선호함, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "정기예금",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C076",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0076",
+    "name": "장예진",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "전세대출",
+      "연금저축"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "수수료 조건을 꼼꼼히 확인함",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "장예진 고객은 은퇴준비형 성향이며 전세대출, 연금저축에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 수수료 조건을 꼼꼼히 확인함, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "전세대출",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C077",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0077",
+    "name": "오나은",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "IRP",
+      "정기예금"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "오나은 고객은 청년자산형 성향이며 IRP, 정기예금에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 보험 보장 범위와 면책기간을 자주 질문함, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "청년자산형",
+      "IRP",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C078",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0078",
+    "name": "서서연",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "채권형 펀드",
+      "청년적금"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "서서연 고객은 대출상담형 성향이며 채권형 펀드, 청년적금에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 고수익 상품을 선호하지만 손실 설명이 필요함, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "채권형 펀드",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C079",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0079",
+    "name": "장도윤",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "해외주식형 펀드",
+      "외화예금"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "과거 중도해지 경험이 있음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-10",
+    "conversationSummary": "장도윤 고객은 보험상담형 성향이며 해외주식형 펀드, 외화예금에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 과거 중도해지 경험이 있음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "해외주식형 펀드",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C080",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0080",
+    "name": "이도윤",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "주택담보대출",
+      "청년적금"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-11",
+    "conversationSummary": "이도윤 고객은 VIP고객형 성향이며 주택담보대출, 청년적금에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 수수료 조건을 꼼꼼히 확인함, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "주택담보대출",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C081",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0081",
+    "name": "최현우",
+    "riskProfile": "안정형",
+    "interests": [
+      "주택담보대출",
+      "정기예금"
+    ],
+    "notes": [
+      "원금 손실 가능성에 민감함",
+      "비대면 가입을 선호함",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-12",
+    "conversationSummary": "최현우 고객은 안정형 성향이며 주택담보대출, 정기예금에 관심이 있습니다. 주요 메모는 원금 손실 가능성에 민감함, 비대면 가입을 선호함, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "주택담보대출",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C082",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0082",
+    "name": "최지훈",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "채권형 펀드",
+      "주택담보대출"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "세액공제 혜택에 관심이 높음",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-13",
+    "conversationSummary": "최지훈 고객은 안정추구형 성향이며 채권형 펀드, 주택담보대출에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 세액공제 혜택에 관심이 높음, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "채권형 펀드",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C083",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0083",
+    "name": "임유진",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "암보험",
+      "연금저축"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-14",
+    "conversationSummary": "임유진 고객은 위험중립형 성향이며 암보험, 연금저축에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 은퇴 준비 목적의 장기 상품에 관심 있음, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "암보험",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C084",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0084",
+    "name": "한준호",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "전세대출",
+      "IRP"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "원금 손실 가능성에 민감함",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-01",
+    "conversationSummary": "한준호 고객은 적극투자형 성향이며 전세대출, IRP에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 원금 손실 가능성에 민감함, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "적극투자형",
+      "전세대출",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C085",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0085",
+    "name": "김예진",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "IRP",
+      "전세대출"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "김예진 고객은 공격투자형 성향이며 IRP, 전세대출에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 은퇴 준비 목적의 장기 상품에 관심 있음, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "IRP",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C086",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0086",
+    "name": "신태민",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "암보험",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "신태민 고객은 은퇴준비형 성향이며 암보험, 채권형 펀드에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 은퇴 준비 목적의 장기 상품에 관심 있음, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "암보험",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C087",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0087",
+    "name": "윤지훈",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "주택담보대출",
+      "청년적금"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "세액공제 혜택에 관심이 높음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "윤지훈 고객은 청년자산형 성향이며 주택담보대출, 청년적금에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 세액공제 혜택에 관심이 높음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "주택담보대출",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C088",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0088",
+    "name": "이하린",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "암보험",
+      "주택담보대출"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "세액공제 혜택에 관심이 높음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "이하린 고객은 대출상담형 성향이며 암보험, 주택담보대출에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 세액공제 혜택에 관심이 높음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "암보험",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C089",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0089",
+    "name": "정유진",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "전세대출",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "단기 유동성을 중요하게 생각함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "정유진 고객은 보험상담형 성향이며 전세대출, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 단기 유동성을 중요하게 생각함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "전세대출",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C090",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0090",
+    "name": "한태민",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "IRP",
+      "외화예금"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "비대면 가입을 선호함",
+      "과거 중도해지 경험이 있음"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "한태민 고객은 VIP고객형 성향이며 IRP, 외화예금에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 비대면 가입을 선호함, 과거 중도해지 경험이 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "IRP",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C091",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0091",
+    "name": "윤유진",
+    "riskProfile": "안정형",
+    "interests": [
+      "연금저축",
+      "해외주식형 펀드"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "단기 유동성을 중요하게 생각함",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "윤유진 고객은 안정형 성향이며 연금저축, 해외주식형 펀드에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 단기 유동성을 중요하게 생각함, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "안정형",
+      "연금저축",
+      "해외주식형 펀드"
+    ]
+  },
+  {
+    "id": "C092",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0092",
+    "name": "최지훈",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "주택담보대출",
+      "연금저축"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "단기 유동성을 중요하게 생각함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "최지훈 고객은 안정추구형 성향이며 주택담보대출, 연금저축에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 단기 유동성을 중요하게 생각함, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "주택담보대출",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C093",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0093",
+    "name": "임나은",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "주택담보대출",
+      "청년적금"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "과거 중도해지 경험이 있음",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-10",
+    "conversationSummary": "임나은 고객은 위험중립형 성향이며 주택담보대출, 청년적금에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 과거 중도해지 경험이 있음, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "주택담보대출",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C094",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0094",
+    "name": "박예진",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "IRP",
+      "청년적금"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-11",
+    "conversationSummary": "박예진 고객은 적극투자형 성향이며 IRP, 청년적금에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 수수료 조건을 꼼꼼히 확인함, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "IRP",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C095",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0095",
+    "name": "오민수",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "전세대출",
+      "외화예금"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "수수료 조건을 꼼꼼히 확인함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-12",
+    "conversationSummary": "오민수 고객은 공격투자형 성향이며 전세대출, 외화예금에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 수수료 조건을 꼼꼼히 확인함, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "전세대출",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C096",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0096",
+    "name": "임민수",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "정기예금",
+      "전세대출"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "세액공제 혜택에 관심이 높음",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-13",
+    "conversationSummary": "임민수 고객은 은퇴준비형 성향이며 정기예금, 전세대출에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 세액공제 혜택에 관심이 높음, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "정기예금",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C097",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0097",
+    "name": "오나은",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "외화예금",
+      "암보험"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "대출 상환 부담을 우려함",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-14",
+    "conversationSummary": "오나은 고객은 청년자산형 성향이며 외화예금, 암보험에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 대출 상환 부담을 우려함, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "외화예금",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C098",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0098",
+    "name": "임나은",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "해외주식형 펀드",
+      "전세대출"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "단기 유동성을 중요하게 생각함"
+    ],
+    "lastConsultDate": "2026-05-01",
+    "conversationSummary": "임나은 고객은 대출상담형 성향이며 해외주식형 펀드, 전세대출에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 고수익 상품을 선호하지만 손실 설명이 필요함, 단기 유동성을 중요하게 생각함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "대출상담형",
+      "해외주식형 펀드",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C099",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0099",
+    "name": "김예진",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "IRP",
+      "전세대출"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "대출 상환 부담을 우려함",
+      "단기 유동성을 중요하게 생각함"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "김예진 고객은 보험상담형 성향이며 IRP, 전세대출에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 대출 상환 부담을 우려함, 단기 유동성을 중요하게 생각함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "IRP",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C100",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0100",
+    "name": "김하린",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "청년적금",
+      "주택담보대출"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "단기 유동성을 중요하게 생각함"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "김하린 고객은 VIP고객형 성향이며 청년적금, 주택담보대출에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 보험 보장 범위와 면책기간을 자주 질문함, 단기 유동성을 중요하게 생각함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "청년적금",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C101",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0101",
+    "name": "윤수아",
+    "riskProfile": "안정형",
+    "interests": [
+      "채권형 펀드",
+      "암보험"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "과거 중도해지 경험이 있음",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "윤수아 고객은 안정형 성향이며 채권형 펀드, 암보험에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 과거 중도해지 경험이 있음, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "채권형 펀드",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C102",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0102",
+    "name": "서태민",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "전세대출",
+      "IRP"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "세액공제 혜택에 관심이 높음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "서태민 고객은 안정추구형 성향이며 전세대출, IRP에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 세액공제 혜택에 관심이 높음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정추구형",
+      "전세대출",
+      "IRP"
+    ]
+  },
+  {
+    "id": "C103",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0103",
+    "name": "정도윤",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "주택담보대출",
+      "연금저축"
+    ],
+    "notes": [
+      "과거 중도해지 경험이 있음",
+      "세액공제 혜택에 관심이 높음",
+      "단기 유동성을 중요하게 생각함"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "정도윤 고객은 위험중립형 성향이며 주택담보대출, 연금저축에 관심이 있습니다. 주요 메모는 과거 중도해지 경험이 있음, 세액공제 혜택에 관심이 높음, 단기 유동성을 중요하게 생각함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "주택담보대출",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C104",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0104",
+    "name": "윤도윤",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "암보험",
+      "연금저축"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "세액공제 혜택에 관심이 높음",
+      "수수료 조건을 꼼꼼히 확인함"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "윤도윤 고객은 적극투자형 성향이며 암보험, 연금저축에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 세액공제 혜택에 관심이 높음, 수수료 조건을 꼼꼼히 확인함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "암보험",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C105",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0105",
+    "name": "한현우",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "전세대출",
+      "연금저축"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "세액공제 혜택에 관심이 높음",
+      "은퇴 준비 목적의 장기 상품에 관심 있음"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "한현우 고객은 공격투자형 성향이며 전세대출, 연금저축에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 세액공제 혜택에 관심이 높음, 은퇴 준비 목적의 장기 상품에 관심 있음입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "공격투자형",
+      "전세대출",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C106",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0106",
+    "name": "한수아",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "정기예금",
+      "전세대출"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "단기 유동성을 중요하게 생각함",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "한수아 고객은 은퇴준비형 성향이며 정기예금, 전세대출에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 단기 유동성을 중요하게 생각함, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "정기예금",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C107",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0107",
+    "name": "윤예진",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "해외주식형 펀드",
+      "주택담보대출"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-10",
+    "conversationSummary": "윤예진 고객은 청년자산형 성향이며 해외주식형 펀드, 주택담보대출에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 보험 보장 범위와 면책기간을 자주 질문함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "해외주식형 펀드",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C108",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0108",
+    "name": "정서연",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "외화예금",
+      "주택담보대출"
+    ],
+    "notes": [
+      "대출 상환 부담을 우려함",
+      "원금 손실 가능성에 민감함",
+      "과거 중도해지 경험이 있음"
+    ],
+    "lastConsultDate": "2026-05-11",
+    "conversationSummary": "정서연 고객은 대출상담형 성향이며 외화예금, 주택담보대출에 관심이 있습니다. 주요 메모는 대출 상환 부담을 우려함, 원금 손실 가능성에 민감함, 과거 중도해지 경험이 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "외화예금",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C109",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0109",
+    "name": "오지훈",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "주택담보대출",
+      "암보험"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-12",
+    "conversationSummary": "오지훈 고객은 보험상담형 성향이며 주택담보대출, 암보험에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 보험 보장 범위와 면책기간을 자주 질문함, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "보험상담형",
+      "주택담보대출",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C110",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0110",
+    "name": "신나은",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "연금저축",
+      "청년적금"
+    ],
+    "notes": [
+      "원금 손실 가능성에 민감함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "과거 중도해지 경험이 있음"
+    ],
+    "lastConsultDate": "2026-05-13",
+    "conversationSummary": "신나은 고객은 VIP고객형 성향이며 연금저축, 청년적금에 관심이 있습니다. 주요 메모는 원금 손실 가능성에 민감함, 은퇴 준비 목적의 장기 상품에 관심 있음, 과거 중도해지 경험이 있음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "연금저축",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C111",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0111",
+    "name": "서유진",
+    "riskProfile": "안정형",
+    "interests": [
+      "해외주식형 펀드",
+      "청년적금"
+    ],
+    "notes": [
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "수수료 조건을 꼼꼼히 확인함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-14",
+    "conversationSummary": "서유진 고객은 안정형 성향이며 해외주식형 펀드, 청년적금에 관심이 있습니다. 주요 메모는 보험 보장 범위와 면책기간을 자주 질문함, 수수료 조건을 꼼꼼히 확인함, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "안정형",
+      "해외주식형 펀드",
+      "청년적금"
+    ]
+  },
+  {
+    "id": "C112",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0112",
+    "name": "최준호",
+    "riskProfile": "안정추구형",
+    "interests": [
+      "해외주식형 펀드",
+      "채권형 펀드"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "비대면 가입을 선호함",
+      "과거 중도해지 경험이 있음"
+    ],
+    "lastConsultDate": "2026-05-01",
+    "conversationSummary": "최준호 고객은 안정추구형 성향이며 해외주식형 펀드, 채권형 펀드에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 비대면 가입을 선호함, 과거 중도해지 경험이 있음입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "안정추구형",
+      "해외주식형 펀드",
+      "채권형 펀드"
+    ]
+  },
+  {
+    "id": "C113",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0113",
+    "name": "서나은",
+    "riskProfile": "위험중립형",
+    "interests": [
+      "청년적금",
+      "주택담보대출"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "대출 상환 부담을 우려함"
+    ],
+    "lastConsultDate": "2026-05-02",
+    "conversationSummary": "서나은 고객은 위험중립형 성향이며 청년적금, 주택담보대출에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 은퇴 준비 목적의 장기 상품에 관심 있음, 대출 상환 부담을 우려함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "위험중립형",
+      "청년적금",
+      "주택담보대출"
+    ]
+  },
+  {
+    "id": "C114",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0114",
+    "name": "박하린",
+    "riskProfile": "적극투자형",
+    "interests": [
+      "주택담보대출",
+      "연금저축"
+    ],
+    "notes": [
+      "수수료 조건을 꼼꼼히 확인함",
+      "원금 손실 가능성에 민감함",
+      "고수익 상품을 선호하지만 손실 설명이 필요함"
+    ],
+    "lastConsultDate": "2026-05-03",
+    "conversationSummary": "박하린 고객은 적극투자형 성향이며 주택담보대출, 연금저축에 관심이 있습니다. 주요 메모는 수수료 조건을 꼼꼼히 확인함, 원금 손실 가능성에 민감함, 고수익 상품을 선호하지만 손실 설명이 필요함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "적극투자형",
+      "주택담보대출",
+      "연금저축"
+    ]
+  },
+  {
+    "id": "C115",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0115",
+    "name": "윤준호",
+    "riskProfile": "공격투자형",
+    "interests": [
+      "IRP",
+      "외화예금"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "수수료 조건을 꼼꼼히 확인함",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-04",
+    "conversationSummary": "윤준호 고객은 공격투자형 성향이며 IRP, 외화예금에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 수수료 조건을 꼼꼼히 확인함, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "공격투자형",
+      "IRP",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C116",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0116",
+    "name": "박도윤",
+    "riskProfile": "은퇴준비형",
+    "interests": [
+      "청년적금",
+      "외화예금"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-05",
+    "conversationSummary": "박도윤 고객은 은퇴준비형 성향이며 청년적금, 외화예금에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 은퇴 준비 목적의 장기 상품에 관심 있음, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "은퇴준비형",
+      "청년적금",
+      "외화예금"
+    ]
+  },
+  {
+    "id": "C117",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0117",
+    "name": "최예진",
+    "riskProfile": "청년자산형",
+    "interests": [
+      "전세대출",
+      "정기예금"
+    ],
+    "notes": [
+      "은퇴 준비 목적의 장기 상품에 관심 있음",
+      "원금 손실 가능성에 민감함",
+      "보험 보장 범위와 면책기간을 자주 질문함"
+    ],
+    "lastConsultDate": "2026-05-06",
+    "conversationSummary": "최예진 고객은 청년자산형 성향이며 전세대출, 정기예금에 관심이 있습니다. 주요 메모는 은퇴 준비 목적의 장기 상품에 관심 있음, 원금 손실 가능성에 민감함, 보험 보장 범위와 면책기간을 자주 질문함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "청년자산형",
+      "전세대출",
+      "정기예금"
+    ]
+  },
+  {
+    "id": "C118",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0118",
+    "name": "한수아",
+    "riskProfile": "대출상담형",
+    "interests": [
+      "해외주식형 펀드",
+      "암보험"
+    ],
+    "notes": [
+      "세액공제 혜택에 관심이 높음",
+      "과거 중도해지 경험이 있음",
+      "비대면 가입을 선호함"
+    ],
+    "lastConsultDate": "2026-05-07",
+    "conversationSummary": "한수아 고객은 대출상담형 성향이며 해외주식형 펀드, 암보험에 관심이 있습니다. 주요 메모는 세액공제 혜택에 관심이 높음, 과거 중도해지 경험이 있음, 비대면 가입을 선호함입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "대출상담형",
+      "해외주식형 펀드",
+      "암보험"
+    ]
+  },
+  {
+    "id": "C119",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0119",
+    "name": "김수아",
+    "riskProfile": "보험상담형",
+    "interests": [
+      "IRP",
+      "전세대출"
+    ],
+    "notes": [
+      "단기 유동성을 중요하게 생각함",
+      "보험 보장 범위와 면책기간을 자주 질문함",
+      "원금 손실 가능성에 민감함"
+    ],
+    "lastConsultDate": "2026-05-08",
+    "conversationSummary": "김수아 고객은 보험상담형 성향이며 IRP, 전세대출에 관심이 있습니다. 주요 메모는 단기 유동성을 중요하게 생각함, 보험 보장 범위와 면책기간을 자주 질문함, 원금 손실 가능성에 민감함입니다.",
+    "consentForPersonalization": false,
+    "tags": [
+      "보험상담형",
+      "IRP",
+      "전세대출"
+    ]
+  },
+  {
+    "id": "C120",
+    "dataset": "long_term_memory",
+    "customerId": "CUST0120",
+    "name": "정예진",
+    "riskProfile": "VIP고객형",
+    "interests": [
+      "연금저축",
+      "청년적금"
+    ],
+    "notes": [
+      "고수익 상품을 선호하지만 손실 설명이 필요함",
+      "원금 손실 가능성에 민감함",
+      "세액공제 혜택에 관심이 높음"
+    ],
+    "lastConsultDate": "2026-05-09",
+    "conversationSummary": "정예진 고객은 VIP고객형 성향이며 연금저축, 청년적금에 관심이 있습니다. 주요 메모는 고수익 상품을 선호하지만 손실 설명이 필요함, 원금 손실 가능성에 민감함, 세액공제 혜택에 관심이 높음입니다.",
+    "consentForPersonalization": true,
+    "tags": [
+      "VIP고객형",
+      "연금저축",
+      "청년적금"
+    ]
+  }
+]
