@@ -36,3 +36,14 @@ Microsoft Foundry에서 구성한 `FinAssistAI` 에이전트와 Foundry IQ 기�
 - Container Apps의 Managed Identity 활성화
 - Foundry 프로젝트 접근을 위한 `Cognitive Services 사용자` 권한 부여
 - 배포된 챗봇 UI에서 금융 상담 RAG 시나리오 테스트
+
+### 5. Long-term Memory 구성
+
+Long-term Memory(LTM) 기반 사용자 메모리 저장 및 개인화 챗봇 구성
+
+- Azure Cosmos DB 기반 사용자별 대화 이력 저장
+- GPT 기반 Conversation Summary 및 Memory Consolidation 구현
+- Azure Container Apps Managed Identity 기반 Cosmos DB 인증 구성
+- Cosmos DB Native RBAC 기반 Data Access 제어
+- 이전 대화 Context 기반 Personalized Response 구현
+- 금융 상담 시나리오 기반 장기 메모리 챗봇 구성
