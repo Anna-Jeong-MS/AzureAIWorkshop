@@ -60,7 +60,7 @@ Azure에서는 엔터프라이즈 검색과 벡터 검색(Vector Search) 기능�
     - 중복도 : GRS(지역 중복 스토리지)
 4. `고급` 탭에서 `계층 구조 네임스페이스 사용`을 체크합니다.
     
-    ![image.png](image.png)
+    ![image.png](images/image.png)
     
 5. 나머지 설정은 그대로 두고 하단의 `검토+만들기` 버튼을 클릭, `만들기` 버튼을 클릭해서 구성을 완료합니다.
 6. 리소스 배포가 완료되면 `리소스로 이동` 버튼을 클릭합니다.
@@ -75,17 +75,17 @@ Microsoft Entra 자격 증명을 사용하여 Azure Portal에서 Blob 데이터�
 2. 상단의 `추가` > `역할 할당 추가`를 클릭합니다.
 3. 검색 상자에 blob을 입력하고, `Storage Blob 데이터 Contributor`를 선택하고 `다음` 버튼을 클릭합니다.
     
-    ![image.png](image%201.png)
+    ![image.png](images/image%201.png)
     
 4. 구성원 탭에서 `다음에 대한 액세스 할당 : 사용자, 그룹 또는 서비스 주체`를 선택하고 `구성원 선택`을 클릭합니다.
 5. 구성원 선택 화면에서 본인 계정을 선택하고 `선택` 버튼을 클릭합니다.
     
-    ![image.png](image%202.png)
+    ![image.png](images/image%202.png)
     
 6. `검토+할당` 버튼을 클릭합니다.
 7. 동일한 방법으로 `독자` 권한도 추가합니다.
     
-    ![image.png](image%203.png)
+    ![image.png](images/image%203.png)
     
 
 ### 데이터 원본 구성
@@ -96,9 +96,9 @@ Microsoft Entra 자격 증명을 사용하여 Azure Portal에서 Blob 데이터�
 4. 컨테이너 리스트에서 생성한 `finassist-source`를 클릭하고, `업로드` 버튼을 클릭합니다.
 5. 앞서 사용한 `products.json` , `policy_docs.json` , `faq.json` , `advisor_guide.json` 파일을 선택해서 추가하고 업로드 버튼을 클릭합니다.
     
-    ![image.png](image%204.png)
+    ![image.png](images/image%204.png)
     
-    ![image.png](image%205.png)
+    ![image.png](images/image%205.png)
     
 
 ### AI Search 권한 설정
@@ -112,7 +112,7 @@ Microsoft Entra 자격 증명을 사용하여 Azure Portal에서 Blob 데이터�
 
 1. [Azure Portal](https://portal.azure.com) 상단의 Cloud Shell 버튼을 클릭합니다.
     
-    ![image.png](image%206.png)
+    ![image.png](images/image%206.png)
     
 2. `Azure Cloud Shell` 시작 팝업에서 `Bash`를 클릭합니다.
 3. `시작` 팝업에서 `스토리지 계정이 필요하지 않음`을 선택하고 구독을 선택한 뒤, `적용` 버튼을 클릭합니다.
@@ -170,14 +170,14 @@ done
 5. `텍스트 벡터화 사용` 섹션에서 `벡터라이저 추가` 버튼을 클릭합니다.
 6. 벡터기 화면을 아래와 같이 구성하고 `저장` 버튼을 클릭합니다.
     
-    ![image.png](image%207.png)
+    ![image.png](images/image%207.png)
     
     - 종류 : Microsoft Foundry
     - Microsoft Foundry 프로젝트 : ai-project-<alias>
     - 모델 배포 : text-embedding-3-large
 7. `만들기` 버튼을 클릭해 지식 원본 구성을 완료합니다.
     
-    ![image.png](image%208.png)
+    ![image.png](images/image%208.png)
     
 
 ### 지식 기반 추가
@@ -200,7 +200,7 @@ done
     
     **검색**
     
-    ![image.png](image%209.png)
+    ![image.png](images/image%209.png)
     
     - 모델 배포 추가 클릭
     - 종류 : Microsoft Foundry
@@ -237,10 +237,10 @@ done
     
 6. `승인` 버튼을 클릭하고, `항상 이 도구 승인`을 클릭합니다.
     
-    ![image.png](image%2010.png)
+    ![image.png](images/image%2010.png)
     
 7. 상단 `로그` 버튼을 통해 정상적으로 도구 호출이 된 것을 확인할 수 있습니다.
     
-    ![image.png](image%2011.png)
+    ![image.png](images/image%2011.png)
     
-    ![image.png](image%2012.png)
+    ![image.png](images/image%2012.png)
