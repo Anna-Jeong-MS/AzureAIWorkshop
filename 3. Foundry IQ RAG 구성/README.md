@@ -121,12 +121,12 @@ Microsoft Entra 자격 증명을 사용하여 Azure Portal에서 Blob 데이터�
 **[준비 작업] 변수 정의**
 
 ```bash
-export RG_NAME="rg-ai-workshop"
+export RG_NAME="ai-workshop-rg"
 export SUB_ID=$(az account show --query id -o tsv)
 export RG_SCOPE="/subscriptions/$SUB_ID/resourceGroups/$RG_NAME"
 
 # 각 서비스의 Principal ID (리소스 생성 후 확보되는 ID 값들)
-export USER_PRINCIPAL_ID="실습자_계정_또는_SPN_오브젝트ID"
+export USER_EMAIL="username@yourdomain.com"
 export HUB_PRINCIPAL_ID="AI_Foundry_Hub_관리ID_오브젝트ID"
 export SEARCH_PRINCIPAL_ID="AI_Search_관리ID_오브젝트ID"
 ```
@@ -136,7 +136,10 @@ export SEARCH_PRINCIPAL_ID="AI_Search_관리ID_오브젝트ID"
 ```bash
 # 실습자 계정에게 리소스 그룹 내 모든 AI 및 데이터 제어 권한을 한 번에 부여
 for role in "Azure AI Developer" "Search Index Data Contributor" "Search Service Contributor" "Storage Blob Data Contributor"; do
-    az role assignment create --assignee-object-id $USER_PRINCIPAL_ID --role "$role" --scope $RG_SCOPE --assignee-principal-type User
+    az role assignment create \
+        --assignee "$USER_EMAIL" \
+        --role "$role" \
+        --scope $RG_SCOPE
 done
 ```
 
