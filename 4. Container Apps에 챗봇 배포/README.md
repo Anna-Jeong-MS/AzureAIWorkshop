@@ -79,8 +79,6 @@ Microsoft Foundry에서 개발한 에이전트를 동일하게 Container Apps에
 6. `+ 추가` 버튼을 눌러 누락된 5가지 환경 변수 세트를 채워 넣습니다.
 7. `Cloud Shell` 버튼을 클릭하여 터미널을 엽니다.
     
-    ![image.png](./images/image%202.png)
-    
     - **AZURE_OPENAI_ENDPOINT**
         
         생성한 Azure OpenAI 서비스(또는 Cognitive Services 통합 계정)의 Endpoint 주소를 가져옵니다.
@@ -106,26 +104,7 @@ Microsoft Foundry에서 개발한 에이전트를 동일하게 Container Apps에
     - **AZURE_SEARCH_INDEX**
         
         ![image.png](./images/image%203.png)
-        
-    - **AZURE_SEARCH_KEY**
-        
-        AI Search 데이터베이스에 쿼리를 날리거나 문서를 조회하기 위한 기본 관리자 키(Admin Key) 원본을 가져옵니다.
-        
-        ```bash
-        az search admin-key show \
-          --service-name "finassist-search-alias" \
-          --resource-group "ai-workshop-rg" \
-          --query "primaryKey" \
-          -o tsv
-        ```
-        
-    - **AZURE_TENANT_ID**
-        
-        ```bash
-        az account show \
-          --query "tenantId" \
-          -o tsv
-        ```
+
         
 8. 구성을 완료하고 `저장` 버튼을 클릭하고 `만들기` 버튼을 클릭합니다.
 
