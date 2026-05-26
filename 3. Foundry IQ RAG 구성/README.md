@@ -60,7 +60,7 @@ Azure에서는 엔터프라이즈 검색과 벡터 검색(Vector Search) 기능�
     - 중복도 : GRS(지역 중복 스토리지)
 4. `고급` 탭에서 `계층 구조 네임스페이스 사용`을 체크합니다.
     
-    ![image.png](./images/image.png)
+    ![image.png](image.png)
     
 5. 나머지 설정은 그대로 두고 하단의 `검토+만들기` 버튼을 클릭, `만들기` 버튼을 클릭해서 구성을 완료합니다.
 6. 리소스 배포가 완료되면 `리소스로 이동` 버튼을 클릭합니다.
@@ -75,17 +75,17 @@ Microsoft Entra 자격 증명을 사용하여 Azure Portal에서 Blob 데이터�
 2. 상단의 `추가` > `역할 할당 추가`를 클릭합니다.
 3. 검색 상자에 blob을 입력하고, `Storage Blob 데이터 Contributor`를 선택하고 `다음` 버튼을 클릭합니다.
     
-    ![image.png](./images/image%201.png)
+    ![image.png](image%201.png)
     
 4. 구성원 탭에서 `다음에 대한 액세스 할당 : 사용자, 그룹 또는 서비스 주체`를 선택하고 `구성원 선택`을 클릭합니다.
 5. 구성원 선택 화면에서 본인 계정을 선택하고 `선택` 버튼을 클릭합니다.
     
-    ![image.png](./images/image%202.png)
+    ![image.png](image%202.png)
     
 6. `검토+할당` 버튼을 클릭합니다.
 7. 동일한 방법으로 `독자` 권한도 추가합니다.
     
-    ![image.png](./images/image%203.png)
+    ![image.png](image%203.png)
     
 
 ### 데이터 원본 구성
@@ -96,9 +96,9 @@ Microsoft Entra 자격 증명을 사용하여 Azure Portal에서 Blob 데이터�
 4. 컨테이너 리스트에서 생성한 `finassist-source`를 클릭하고, `업로드` 버튼을 클릭합니다.
 5. 앞서 사용한 `products.json` , `policy_docs.json` , `faq.json` , `advisor_guide.json` 파일을 선택해서 추가하고 업로드 버튼을 클릭합니다.
     
-    ![image.png](./images/image%204.png)
+    ![image.png](image%204.png)
     
-    ![image.png](./images/image%205.png)
+    ![image.png](image%205.png)
     
 
 ### AI Search 권한 설정
@@ -112,114 +112,51 @@ Microsoft Entra 자격 증명을 사용하여 Azure Portal에서 Blob 데이터�
 
 1. [Azure Portal](https://portal.azure.com) 상단의 Cloud Shell 버튼을 클릭합니다.
     
-    ![image.png](./images/image%206.png)
+    ![image.png](image%206.png)
     
 2. `Azure Cloud Shell` 시작 팝업에서 `Bash`를 클릭합니다.
 3. `시작` 팝업에서 `스토리지 계정이 필요하지 않음`을 선택하고 구독을 선택한 뒤, `적용` 버튼을 클릭합니다.
 4. 아래 CLI를 수정하여 적용합니다.
-    
-    ```bash
-    # 1. 변수 설정
-    SEARCH_MI_OBJECT_ID="seach-mi-object-id"
-    STORAGE_ACCOUNT_NAME="datasourcesa<alias>"
-    CONTAINER_NAME="finassist-source"
-    
-    # 2. 현재 로그인된 구독에서 스토리지 계정의 Resource ID 조회
-    STORAGE_ID=$(az storage account show --name $STORAGE_ACCOUNT_NAME --query id --output tsv)
-    
-    # 3. 특정 컨테이너 범위(Scope) 정의
-    CONTAINER_SCOPE="${STORAGE_ID}/blobServices/default/containers/${CONTAINER_NAME}"
-    
-    # 4. RBAC 역할 할당 실행
-    az role assignment create \
-        --assignee-object-id $SEARCH_MI_OBJECT_ID \
-        --assignee-principal-type "ServicePrincipal" \
-        --role "Storage Blob Data Reader" \
-        --scope $CONTAINER_SCOPE
-    ```
-    
 
-**AI Search → MS Foundry 프로젝트 액세스 권한**
-
-동일한 방법으로 아래 CLI를 수행합니다.
+**[준비 작업] 변수 정의**
 
 ```bash
-# 1. 환경 변수 정의
-YOUR_EMAIL="your_email@domain.com"
-SEARCH_MI_OBJECT_ID="search-mi-object-id"
-RESOURCE_GROUP="resource-group"
-HUB_NAME="ai-project-alias-resource"
+export RG_NAME="rg-ai-workshop"
+export SUB_ID=$(az account show --query id -o tsv)
+export RG_SCOPE="/subscriptions/$SUB_ID/resourceGroups/$RG_NAME"
 
-PARENT_RESOURCE_ID=$(az cognitiveservices account show \
-    --name $HUB_NAME \
-    --resource-group $RESOURCE_GROUP \
-    --query id --output tsv)
-
-# 2. 부모 AI 서비스 리소스 수준에서 AI Search 관리 ID에게 'Cognitive Services User' 역할 부여
-az role assignment create \
-    --assignee-object-id $SEARCH_MI_OBJECT_ID \
-    --assignee-principal-type "ServicePrincipal" \
-    --role "Cognitive Services User" \
-    --scope $PARENT_RESOURCE_ID
-    
-az role assignment create \
-    --assignee "$YOUR_EMAIL" \
-    --role "Search Service Contributor" \
-    --scope $PARENT_RESOURCE_ID
-    
-az role assignment create \
-    --assignee "$YOUR_EMAIL" \
-    --role "Cognitive Services User" \
-    --scope $PARENT_RESOURCE_ID
+# 각 서비스의 Principal ID (리소스 생성 후 확보되는 ID 값들)
+export USER_PRINCIPAL_ID="실습자_계정_또는_SPN_오브젝트ID"
+export HUB_PRINCIPAL_ID="AI_Foundry_Hub_관리ID_오브젝트ID"
+export SEARCH_PRINCIPAL_ID="AI_Search_관리ID_오브젝트ID"
 ```
 
-**MS Foundry / User → AI Search 액세스 권한**
+**실습자(User) 권한 부여 (최초 1회 실행)**
 
-1. Azure Portal에서 `Foundry`를 검색해서 `Microsoft Foundry` 화면으로 이동합니다.
-2. 왼쪽 메뉴에서 `Foundry와 함께 사용` > `Foundry`를 클릭합니다.
-3. 생성한 `ai-project-alias-resource`를 클릭합니다.
-4. 왼쪽 메뉴에서 `리소스 관리` > `ID` 를 클릭하고 `개체(보안 주체) ID`를 복사하여 아래 CLI에 사용합니다.
-    
-    ```bash
-    # 1. 실제 인프라 환경 변수 정의
-    PROJECT_NAME="project-name"
-    SEARCH_SERVICE_NAME="search-service-name"
-    
-    
-    # 2. Azure AI Foundry 프로젝트의 시스템 관리 ID(Identity) Object ID 추출
-    PROJECT_MI_OBJECT_ID=$(az resource show \
-        --ids "/subscriptions/32f769e9-ea46-4fc7-ac63-8b619a161699/resourceGroups/${RESOURCE_GROUP}/providers/Microsoft.CognitiveServices/accounts/${HUB_NAME}/projects/${PROJECT_NAME}" \
-        --query "identity.principalId" --output tsv)
-    
-    # 3. 부모 허브 계정의 시스템 관리 ID Object ID 추출 (Foundry 인증 보완용)
-    HUB_MI_OBJECT_ID=$(az cognitiveservices account show \
-        --name $HUB_NAME \
-        --resource-group $RESOURCE_GROUP \
-        --query "identity.principalId" --output tsv)
-    
-    # 4. 대상 Azure AI Search 서비스의 범위(Scope) ID 조회
-    SEARCH_RES_ID=$(az search service show \
-        --name $SEARCH_SERVICE_NAME \
-        --resource-group $RESOURCE_GROUP \
-        --query id --output tsv)
-    
-    # ----------------------------------------------------
-    # 5. 권한 할당 실행 (방향: Foundry/사용자 -> AI Search 접근 허용)
-    # ----------------------------------------------------
-    
-    # Foundry 프로젝트 관리 ID에 AI Search 권한을 부여
-    az role assignment create --assignee-object-id $PROJECT_MI_OBJECT_ID --assignee-principal-type "ServicePrincipal" --role "Search Service Contributor" --scope $SEARCH_RES_ID
-    az role assignment create --assignee-object-id $PROJECT_MI_OBJECT_ID --assignee-principal-type "ServicePrincipal" --role "Search Index Data Reader" --scope $SEARCH_RES_ID
-    
-    # 부모 허브 관리 ID에 AI Search 권한을 부여
-    az role assignment create --assignee-object-id $HUB_MI_OBJECT_ID --assignee-principal-type "ServicePrincipal" --role "Search Service Contributor" --scope $SEARCH_RES_ID
-    az role assignment create --assignee-object-id $HUB_MI_OBJECT_ID --assignee-principal-type "ServicePrincipal" --role "Search Index Data Reader" --scope $SEARCH_RES_ID
-    
-    # 작업자 본인 계정($YOUR_EMAIL)에 UI 페치 권한을 부여
-    az role assignment create --assignee "$YOUR_EMAIL" --role "Search Service Contributor" --scope $SEARCH_RES_ID
-    az role assignment create --assignee "$YOUR_EMAIL" --role "Search Index Data Reader" --scope $SEARCH_RES_ID
-    ```
-    
+```bash
+# 실습자 계정에게 리소스 그룹 내 모든 AI 및 데이터 제어 권한을 한 번에 부여
+for role in "Azure AI Developer" "Search Index Data Contributor" "Search Service Contributor" "Storage Blob Data Contributor"; do
+    az role assignment create --assignee-object-id $USER_PRINCIPAL_ID --role "$role" --scope $RG_SCOPE --assignee-principal-type User
+done
+```
+
+**Microsoft Foundry Hub / Project 관리 ID 권한 부여**
+
+```bash
+# AI Foundry Hub(또는 프로젝트) 관리 ID에 리소스 그룹 범위 권한 일괄 부여
+for role in "Cognitive Services OpenAI User" "Search Index Data Contributor" "Search Service Contributor" "Storage Blob Data Contributor"; do
+    az role assignment create --assignee-object-id $HUB_PRINCIPAL_ID --role "$role" --scope $RG_SCOPE --assignee-principal-type ServicePrincipal
+done
+```
+
+**Azure AI Search 권한 부여**
+
+```bash
+# Azure AI Search 관리 ID가 스토리지와 OpenAI에 접근할 수 있도록 권한 부여
+for role in "Storage Blob Data Reader" "Cognitive Services OpenAI User"; do
+    az role assignment create --assignee-object-id $SEARCH_PRINCIPAL_ID --role "$role" --scope $RG_SCOPE --assignee-principal-type ServicePrincipal
+done
+```
 
 ### 지식 원본 추가
 
@@ -233,17 +170,23 @@ az role assignment create \
 5. `텍스트 벡터화 사용` 섹션에서 `벡터라이저 추가` 버튼을 클릭합니다.
 6. 벡터기 화면을 아래와 같이 구성하고 `저장` 버튼을 클릭합니다.
     
-    ![image.png](./images/image%207.png)
+    ![image.png](image%207.png)
     
     - 종류 : Microsoft Foundry
     - Microsoft Foundry 프로젝트 : ai-project-<alias>
     - 모델 배포 : text-embedding-3-large
 7. `만들기` 버튼을 클릭해 지식 원본 구성을 완료합니다.
     
-    ![image.png](./images/image%208.png)
+    ![image.png](image%208.png)
     
 
 ### 지식 기반 추가
+
+> Foundry 포털에서 gpt-4.1 모델을 배포합니다.
+> 
+
+> 에이전트에는 이미 GPT 모델이 연결되어 있지만, Foundry의 Knowledge Connection은 독립적인 Retrieval Pipeline 리소스로 동작하기 때문에 Query Rewrite·Grounding·검색 테스트 등을 위해 별도의 Chat Model 참조를 추가로 요구합니다. 실제 최종 응답 생성은 에이전트의 모델이 수행합니다.
+> 
 
 1. 왼쪽 메뉴에서 `에이전트 검색` > `지식 기반`를 클릭합니다.
 2. 상단의 `지식 기반 추가` 버튼을 클릭합니다.
@@ -257,7 +200,7 @@ az role assignment create \
     
     **검색**
     
-    ![image.png](./images/image%209.png)
+    ![image.png](image%209.png)
     
     - 모델 배포 추가 클릭
     - 종류 : Microsoft Foundry
@@ -294,10 +237,10 @@ az role assignment create \
     
 6. `승인` 버튼을 클릭하고, `항상 이 도구 승인`을 클릭합니다.
     
-    ![image.png](./images/image%2010.png)
+    ![image.png](image%2010.png)
     
 7. 상단 `로그` 버튼을 통해 정상적으로 도구 호출이 된 것을 확인할 수 있습니다.
     
-    ![image.png](./images/image%2011.png)
+    ![image.png](image%2011.png)
     
-    ![image.png](./images/image%2012.png)
+    ![image.png](image%2012.png)
