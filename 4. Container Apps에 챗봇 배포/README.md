@@ -105,6 +105,18 @@ Microsoft Foundry에서 개발한 에이전트를 동일하게 Container Apps에
         
         ![image.png](./images/image%203.png)
 
+    - **AZURE_SEARCH_ENDPOINT**
+        
+        AI Search 데이터베이스에 쿼리를 날리거나 문서를 조회하기 위한 기본 관리자 키(Admin Key) 원본을 가져옵니다.
+        
+        ```bash
+        az search admin-key show \
+          --service-name "finassist-search-alias" \
+          --resource-group "ai-workshop-rg" \
+          --query "primaryKey" \
+          -o tsv
+        ```
+
         
 8. 구성을 완료하고 `저장` 버튼을 클릭하고 `만들기` 버튼을 클릭합니다.
 
